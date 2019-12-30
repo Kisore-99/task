@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <div>
           <Navbar />
+          <Card1>
       </div>
     );
   }
