@@ -25,7 +25,7 @@ const navbar= ()=> {
   </section>
 
       <div className="content">
-        <p className="para1"><span> Learner Classes</span> harnesses the world's best Career Advancement &amp; Leadership Development resources,&nbsp;helping  you gain Expert Knowledge, Practical Guidance & Actionable Insights from Extraordinary Leaders & World Class Institutions through Specialized,  Affordable, Online & Offline Programs custom crafted to Accelerate your Career & Business Success while transforming you into a better & more effective Leader.</p>
+        
       </div>
       
 

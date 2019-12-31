@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import Navbar from './navbar/navbar';
+import Card1 from './Cards/Card1';
 
 class App extends Component {
   constructor() {
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <div>
           <Navbar />
-          <Card1>
+          <Card1 />
       </div>
     );
   }
