@@ -5,7 +5,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
 import FaceIcon from '@material-ui/icons/Face';
 import DoneIcon from '@material-ui/icons/Done';
-
+// import GridOne from './GridOne';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -65,6 +65,16 @@ const useStyles = makeStyles(theme => ({
 
         <h3 style={{textAlign: 'center'}}>of the foremost world leaders</h3>
         <h3 style={{textAlign: 'center'}}>LIKE</h3>
+
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
+
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e1013211d847_Capture1.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
+
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b4629fb1aecf1e21fd_Capture2.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
+
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cf0ed6d2daaea4a946a5568_Capture3.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
+
+        <img  src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e16c7d11d848_Capture4.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
     </div>
   );
  }
