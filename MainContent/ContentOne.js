@@ -75,9 +75,7 @@ const useStyles = makeStyles(theme => ({
         <h3 style={{textAlign: 'center'}}>of the foremost world leaders</h3>
         <h3 style={{textAlign: 'center'}}>LIKE</h3>
         <img 
-        srcset="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG 480w,https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG 800w"
-        sizes="(max-width: 600px) 480px,800px"
-        src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
+        src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto', maxWidth:'100% !important', height:'auto'}} />
     </div>
   );
  }
