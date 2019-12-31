@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './ContentOne.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
@@ -57,24 +58,14 @@ const useStyles = makeStyles(theme => ({
       <h3 style={{textAlign:'center', marginTop: '-3rem'}}> 50+ Renowned High Potential (HI-PO) & Executive Leadership Development programs of Top Tier Organisations</h3>
         <h3 style={{textAlign:'center'}}>LIKE</h3>
 
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png" style={{width: '100%'}}/>
+        <img 
+        srcset="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png 480w,https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png 800w"
+         sizes="(max-width: 600px) 480px,800px"
+        src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png" style={{width: '100%'}}/>
 
         <h1 style={{textAlign:'center', fontSize: '3rem'}}>&</h1>
         <h3 style={{textAlign:'center'}}>Thoughts, Actions, Advice, Life  & Inspiration  of</h3>
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee61989e02e114db11d186_final-leaders-500.jpg" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
 
-        <h3 style={{textAlign: 'center'}}>of the foremost world leaders</h3>
-        <h3 style={{textAlign: 'center'}}>LIKE</h3>
-
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
-
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e1013211d847_Capture1.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
-
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b4629fb1aecf1e21fd_Capture2.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
-
-        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cf0ed6d2daaea4a946a5568_Capture3.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
-
-        <img  src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e16c7d11d848_Capture4.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
     </div>
   );
  }
