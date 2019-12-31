@@ -66,6 +66,18 @@ const useStyles = makeStyles(theme => ({
         <h1 style={{textAlign:'center', fontSize: '3rem'}}>&</h1>
         <h3 style={{textAlign:'center'}}>Thoughts, Actions, Advice, Life  & Inspiration  of</h3>
 
+       <img 
+       srcset="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee61989e02e114db11d186_final-leaders-500.jpg 480w,https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee61989e02e114db11d186_final-leaders-500.jpg 800w"
+
+       sizes="(max-width: 600px) 480px,800px"
+       src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee61989e02e114db11d186_final-leaders-500.jpg" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
+
+        <h3 style={{textAlign: 'center'}}>of the foremost world leaders</h3>
+        <h3 style={{textAlign: 'center'}}>LIKE</h3>
+        <img 
+        srcset="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG 480w,https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG 800w"
+        sizes="(max-width: 600px) 480px,800px"
+        src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{ display:'block', marginLeft: 'auto', marginRight: 'auto'}} />
     </div>
   );
  }
