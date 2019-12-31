@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import Navbar from './navbar/navbar';
 import Card1 from './Cards/Card1';
+import ContentOne from './MainContent/ContentOne';
 
 class App extends Component {
   constructor() {
@@ -17,6 +18,7 @@ class App extends Component {
       <div>
           <Navbar />
           <Card1 />
+          <ContentOne />
       </div>
     );
   }
