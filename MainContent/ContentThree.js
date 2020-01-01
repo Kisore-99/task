@@ -13,6 +13,11 @@ const useStyles = makeStyles(theme => ({
       background: '#2E4053', 
       color: '#F1C40F',
       textAlign:'center',
+      fontSize:'20px',
+      padding: '1rem',
+      lineHeight: '2rem'
+
+
     },
     image: {
      borderRadius:'5rem'
@@ -26,7 +31,10 @@ const useStyles = makeStyles(theme => ({
     minWidth: 200,
     marginTop: 10,
     background: '',
-    height: '400px'
+    backgroundColor: '#222',
+    
+  
+
     
   },
    title1: {
@@ -163,17 +171,17 @@ export default function ContentThree(){
 
  <Card className={classes.card1} variant="outlined">
       <CardContent>
-        <Typography className={classes.title1} style={{fontFamily: 'Josefin Sans'}} color="textSecondary" gutterBottom> 
-      <p style={{textAlign: 'center', }}>LeaderClasses is at a very interesting phase of its growth & is actively looking to expand our Campus Partnerships Pan-India.</p>
-      <p style={{textAlign: 'center',marginTop: '-1rem'}}>If you are an Institutional Representative of a University / College interested in building a relationship with us , we invite you to review our "Campus Partners" page & submit your details via our Campus Partners form.</p>
-      <p style={{textAlign: 'center',marginTop: '-1rem'}}>We look forward to hearing from you soon & will advise interest/next steps within 5 Business Days of receipt of your "Campus Partners Form"</p>
-      <p style={{textAlign: 'center', marginTop: '-1rem' }}>Thanks for your Time and attention  </p>
-      <p style={{textAlign: 'center', marginTop: '1rem'}}>Team- LeaderClasses</p>
-</Typography>
+        <Typography className={classes.title1} style={{fontFamily: 'Josefin Sans', color: 'orange'}} color="textSecondary" gutterBottom> 
+      <p style={{textAlign: 'center',  fontSize:'20px' }}>LeaderClasses is at a very interesting phase of its growth & is actively looking to expand our Campus Partnerships Pan-India.</p>
+      <p style={{textAlign: 'center',marginTop: '-1rem', fontSize:'20px'}}>If you are an Institutional Representative of a University / College interested in building a relationship with us , we invite you to review our "Campus Partners" page & submit your details via our Campus Partners form.</p>
+      <p style={{textAlign: 'center',marginTop: '-1rem', fontSize:'20px'}}>We look forward to hearing from you soon & will advise interest/next steps within 5 Business Days of receipt of your "Campus Partners Form"</p>
+      <p style={{textAlign: 'center', marginTop: '-1rem', fontSize:'20px' }}>Thanks for your Time and attention  </p>
+      <p style={{textAlign: 'center', marginTop: '1rem', fontSize:'20px'}}>Team- LeaderClasses</p>
+        </Typography>
       </CardContent>
     </Card>  
 
- <div class="footer">
+ <div class="footer" style={{marginTop: '5rem'}}>
   <div class="contain">
       <div class="col">
         <h2></h2>

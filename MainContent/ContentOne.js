@@ -25,7 +25,8 @@ const useStyles = makeStyles(theme => ({
     height:'3rem',
     textTransform: 'uppercase',
     width: '8rem',
-    fontSize: '0.9rem'
+    fontSize: '0.9rem',
+    fontFamily: 'Josefin Sans',
   },
   
 }));
@@ -36,7 +37,7 @@ const useStyles = makeStyles(theme => ({
     <div>
         <h2>To facilitate this Leader Classes :- </h2>
 
-        <h3 style={{textAlign:'center', fontSize: '1.8rem'}}>1. Relentlessly tracks and learns from</h3>
+        <h3 style={{textAlign:'center', fontSize: '1.8rem',}}>1. Relentlessly tracks and learns from</h3>
 
         <h4 style={{textAlign:'center', fontSize: '1.5rem'}}>100+ ​FULLTIME/ EXECUTIVE DEVELOPMENT PROGRAMS AT PRE-EMINENT UNIVERSITIES</h4>
           <h3 style={{textAlign:'center'}}>LIKE</h3>
@@ -67,7 +68,7 @@ const useStyles = makeStyles(theme => ({
          sizes="(max-width: 600px) 480px,800px"
         src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png" style={{width: '100%'}}/>
 
-        <h1 style={{textAlign:'center', fontSize: '3rem'}}>&</h1>
+        
         <h3 style={{textAlign:'center'}}>Thoughts, Actions, Advice, Life  & Inspiration  of</h3>
 
        <img 
@@ -78,9 +79,18 @@ const useStyles = makeStyles(theme => ({
 
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>of the foremost world leaders</h3>
         <h3 style={{textAlign: 'center'}}>LIKE</h3>
+        <h3 style={{textAlign: 'center'}}>&</h3>
+        <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Other Leaders par excellence.</h3>
+        <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Ingesting an extra-ordinary amount of </h3>
+        <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>this exceptionally valuable content </h3>
+        <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>on 100+ Topics of Strategic Importance from</h3>
+
         <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee670d74fc2b3ac772ea55_funnel-final1.png" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
 
         <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee674574fc2b922672ea8c_LSPG3.png" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
+
+      <p style={{textAlign:'center', fontSize: '1.5rem'}}>Delivered via an Online Portal, </p>
+      <p style={{textAlign:'center', fontSize: '1.5rem'}}>accessible to our Members through an extremely affordable, Annual Subscription - Our Membership</p>
 
         <ContentTwo />
       

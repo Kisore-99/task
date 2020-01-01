@@ -1,7 +1,9 @@
-html{
- 
-}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 h2{
   color: #D68910;
 }
 
+h2,h3,h4,p{
+  font-family: Josefin Sans;
+}

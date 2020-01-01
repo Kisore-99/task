@@ -15,7 +15,10 @@ const useStyles = makeStyles(theme => ({
     style: {
   background: '#2E4053', 
   color: '#F1C40F',
-  textAlign: 'center'
+  textAlign: 'center',
+  fontSize:'20px',
+  padding: '1rem',
+  lineHeight: '2rem'
   },
    card1: {
     textAlign: 'center',

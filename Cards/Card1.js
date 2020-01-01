@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   card1: {
     textAlign: 'center',
     minWidth: 275,
-    marginTop: 30,
+    marginTop: 90,
     backgroundColor: '#222'
   },
   title1: {
