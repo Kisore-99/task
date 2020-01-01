@@ -5,15 +5,18 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import './Card.css';
 
 const useStyles = makeStyles({
   card1: {
+    textAlign: 'center',
     minWidth: 275,
-    marginTop: 20,
-    backgroundColor: 'blue'
+    marginTop: 30,
+    backgroundColor: '#222'
   },
   title1: {
-    fontSize: 20,
+    fontSize: 22,
+    color: 'orange'
   },
   pos1: {
     marginBottom: 12,
@@ -21,12 +24,14 @@ const useStyles = makeStyles({
 
 
   card2: {
-    minWidth: 275,
+    textAlign: 'center',
     marginTop: 20,
-    backgroundColor: 'orange'
+    backgroundColor: '#222',
+    
   },
   title2: {
     fontSize: 20,
+    color: 'orange'
   },
   pos2: {
     marginBottom: 12,
@@ -43,8 +48,8 @@ export default function OutlinedCard() {
     <div>
     <Card className={classes.card1} variant="outlined">
       <CardContent>
-        <Typography className={classes.title1} color="textSecondary" gutterBottom>
-           harnesses the world's best Career Advancement & Leadership Development resources, helping you gain Expert Knowledge, Practical Guidance & Actionable Insights from Extraordinary Leaders & World Class Institutions through Specialized,  Affordable, Online & Offline Programs custom crafted to Accelerate your Career & Business Success while transforming you into a better & more effective Leader.
+        <Typography className={classes.title1} style={{fontFamily: 'Josefin Sans'}} color="textSecondary" gutterBottom>
+          Leader Classes harnesses the world's best Career Advancement & Leadership Development resources, helping you gain Expert Knowledge, Practical Guidance & Actionable Insights from Extraordinary Leaders & World Class Institutions through Specialized,  Affordable, Online & Offline Programs custom crafted to Accelerate your Career & Business Success while transforming you into a better & more effective Leader.
         </Typography>
       </CardContent>
       
@@ -53,7 +58,7 @@ export default function OutlinedCard() {
 
     <Card className={classes.card2} variant="outlined">
       <CardContent>
-        <Typography className={classes.title2} color="textSecondary" gutterBottom>
+        <Typography className={classes.title2} style={{fontFamily: 'Josefin Sans'}} color="textSecondary"  gutterBottom>
          To see for yourself the quality of our Video Content & how it can help you, we invite you to  view our Founder CEO's introductory Video providing if you have not done the same already.
         </Typography>
       </CardContent>
