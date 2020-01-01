@@ -181,7 +181,7 @@ export default function ContentThree(){
       </CardContent>
     </Card>  
 
- <div class="footer" style={{marginTop: '5rem'}}>
+ <div class="footer" style={{marginTop: '10px', bottom: '-14px' }}>
   <div class="contain">
       <div class="col">
         <h2></h2>
@@ -192,7 +192,7 @@ export default function ContentThree(){
         </ul>
       </div>
 
-      <div class="clearfix">  <p style={{color: '#fff',textAlign: 'center', textTransform: 'uppercase'}}>© 2019 LeaderClasses ( Awesome Firms ) & its owners. All rights reserved.</p>
+      <div class="clearfix">  <p style={{color: '#fff',fontSize: '14px',textAlign: 'center', textTransform: 'uppercase'}}>© 2019 LeaderClasses ( Awesome Firms ) & its owners. All rights reserved.</p>
       <p style={{color: '#fff', textAlign: 'center', marginTop: '0.1rem', padding: '0.5rem', textTransform: 'uppercase'}}>All trademarks, logos & intellectual property featured belong to their respective owners. They do not endorse us in any way.</p>
       </div>
       

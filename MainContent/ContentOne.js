@@ -13,6 +13,7 @@ import ContentTwo from './ContentTwo';
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
+    
     justifyContent: 'center',
     flexWrap: 'wrap',
     '& > *': {
@@ -20,13 +21,13 @@ const useStyles = makeStyles(theme => ({
     },
   },
   style: {
+    
     color:'#fff',
-    background:'#222', 
-    height:'3rem',
+    height:'4rem',
     textTransform: 'uppercase',
-    width: '8rem',
-    fontSize: '0.9rem',
+    width: '9rem',
     fontFamily: 'Josefin Sans',
+    background:'#222', 
   },
   
 }));
@@ -43,11 +44,11 @@ const useStyles = makeStyles(theme => ({
           <h3 style={{textAlign:'center'}}>LIKE</h3>
 
 
-        <div className={classes.root}>
+        <div className={classes.root} >
       <Chip label="Hardvard" variant="outlined"  className={classes.style}/>
       <Chip label="MIT" variant="outlined" className={classes.style}/>
       <Chip label="Yale" variant="outlined" className={classes.style}/>
-      <Chip label="Ocford" variant="outlined" className={classes.style}/>
+      <Chip label="Oxford" variant="outlined" className={classes.style}/>
       <Chip label="UC Berkeley" variant="outlined" className={classes.style}/>
       <Chip label="Stanford" variant="outlined" className={classes.style}/>
       <Chip label="UPENN" variant="outlined" className={classes.style}/>

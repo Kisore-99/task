@@ -14,14 +14,15 @@ const navbar= ()=> {
 </label>
 
 <nav>    
+<h2 style={{color: '#222', textAlign: 'center', textTransform: 'uppercase',  fontFamily: 'Josefin Sans'}}>Leader Classes</h2>
   <ul>
-    <li><a href="#">Link #1</a></li>
-    <li><a href="#">Link #2</a></li>
-    <li><a href="#">Link #3</a></li>
-    <li><a href="#">Link #4</a></li>
-    <li><a href="#">Link #5</a></li>
-    <li><a href="#">Link #6</a></li>
-    <li><a href="#">Link #7</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">Membership</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Campus Partners</a></li>
+    <li><a href="#">Career</a></li>
+    <li><a href="#">Login</a></li>
   </ul>  
 </nav>
 
