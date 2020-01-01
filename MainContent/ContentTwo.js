@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './ContentTwo.css';
+import ContentThree from './ContentThree';
 
 export default function ContentTwo(){
   return(
@@ -79,6 +80,7 @@ export default function ContentTwo(){
   </main>
   <p>To know more about & to join our exclusive, exceptional network of ambitious minds, we invite you to review our Membership page.  We look forward to hearing from & having you in our exceptional network, soon.</p>
 </div>
+<ContentThree />
   </div>
   )
 }
