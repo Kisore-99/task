@@ -14,10 +14,10 @@ const navbar= ()=> {
 </label>
 
 <nav>    
-<a className= 'title' href="https://react-e5hx4a.stackblitz.io">
+
 <h2  style={{color: '#222', textAlign: 'left', textTransform: 'uppercase',  fontFamily: 'Josefin Sans', marginTop: '2rem', fontSize: '20px',cursor: 'pointer', }}>
 Leader Classes</h2>
-</a>
+
   <ul>
     <li><a href="https://www.leaderclasses.com/about-us">About</a></li>
     <li><a href="https://www.leaderclasses.com/faq">FAQ</a></li>

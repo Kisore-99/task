@@ -76,8 +76,9 @@ export default function ContentThree(){
       
       <div class="text">
         
-       
-       <p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"><img src="https://embedwistia-a.akamaihd.net/deliveries/12437330e78c4ba68f5835d40832f4cb2ccc4b62.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225"style={{width: '400px',height: '225px', marginTop: '5rem'}} /></a></p><p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"></a></p>
+  
+       <iframe src="//fast.wistia.net/embed/iframe/tyz4jtbdeh" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+       <a href="<%=video1[2]%>" target="iframe_video1"><img src="" /></a>
       </div>
     </article>
     <article className={classes.style}>
@@ -101,7 +102,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"><img src="https://embedwistia-a.akamaihd.net/deliveries/12437330e78c4ba68f5835d40832f4cb2ccc4b62.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225" style={{width: '400px',height: '225px',marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"></a></p>
+        <iframe src="//fast.wistia.net/embed/iframe/zy9cntdbjy" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
       
       </div>
     </article>
@@ -126,8 +127,9 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <p><a href="https://www.leaderclasses.com?wvideo=2pzbkn5sl6"><img src="https://embedwistia-a.akamaihd.net/deliveries/58f4f7f1aedc70f673d94ce297d954214ed6978b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225" style={{width: '400px',height: '225px', marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=2pzbkn5sl6"></a></p>
-       
+        
+               <iframe src="//fast.wistia.net/embed/iframe/2pzbkn5sl6" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+
       </div>
     </article>
 
@@ -152,7 +154,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-       <p><a href="https://www.leaderclasses.com?wvideo=ednmcs3w67"><img src="https://embedwistia-a.akamaihd.net/deliveries/3184f75d1eda688a07c4d6868c22f1aa0329a207.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="255"style={{width: '400px',height: '225px', marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=ednmcs3w67"></a></p>
+          <iframe src="//fast.wistia.net/embed/iframe/ednmcs3w67" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
       </div>
     </article>
     
