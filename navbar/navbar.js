@@ -14,7 +14,7 @@ const navbar= ()=> {
 </label>
 
 <nav>    
-<h2 style={{color: '#222', textAlign: 'center', textTransform: 'uppercase',  fontFamily: 'Josefin Sans'}}>Leader Classes</h2>
+<h2 style={{color: '#222', textAlign: 'left', textTransform: 'uppercase',  fontFamily: 'Josefin Sans', marginTop: '2rem', fontSize: '20px'}}>Leader Classes</h2>
   <ul>
     <li><a href="#">About</a></li>
     <li><a href="#">FAQ</a></li>
