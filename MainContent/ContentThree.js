@@ -77,7 +77,7 @@ export default function ContentThree(){
       <div class="text">
         
   
-       <iframe src="//fast.wistia.net/embed/iframe/tyz4jtbdeh" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+       <iframe src="//fast.wistia.net/embed/iframe/tyz4jtbdeh" style={{width: '100%',height: '225px', marginTop: '7rem'}} />
        <a href="<%=video1[2]%>" target="iframe_video1"><img src="" /></a>
       </div>
     </article>
@@ -102,7 +102,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <iframe src="//fast.wistia.net/embed/iframe/zy9cntdbjy" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+        <iframe src="//fast.wistia.net/embed/iframe/zy9cntdbjy" style={{width: '100%',height: '225px', marginTop: '7rem'}} />
       
       </div>
     </article>
@@ -128,7 +128,7 @@ export default function ContentThree(){
       
       <div class="text">
         
-               <iframe src="//fast.wistia.net/embed/iframe/2pzbkn5sl6" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+               <iframe src="//fast.wistia.net/embed/iframe/2pzbkn5sl6" style={{width: '100%',height: '225px', marginTop: '7rem'}} />
 
       </div>
     </article>
@@ -154,7 +154,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-          <iframe src="//fast.wistia.net/embed/iframe/ednmcs3w67" style={{width: '300px',height: '225px', marginTop: '7rem'}} />
+          <iframe src="//fast.wistia.net/embed/iframe/ednmcs3w67" style={{width: '100%',height: '225px', marginTop: '7rem'}} />
       </div>
     </article>
     
