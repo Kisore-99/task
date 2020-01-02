@@ -59,7 +59,7 @@ export default function OutlinedCard() {
     <Card className={classes.card2} variant="outlined">
       <CardContent>
         <Typography className={classes.title2} style={{fontFamily: 'Josefin Sans'}} color="textSecondary"  gutterBottom>
-         To see for yourself the quality of our Video Content & how it can help you, we invite you to  view our Founder CEO's introductory Video providing if you have not done the same already.
+         To see for yourself the quality of our Video Content & how it can help you, we invite you to  view our Founder CEO's introductory Video providing <a  style={{color: 'red'}}href="https://www.leaderclasses.com/videos/career-acceleration-insights-video">'Expert Insights to Accelerate your Career'</a>  if you have not done the same already.
         </Typography>
       </CardContent>
       

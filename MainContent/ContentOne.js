@@ -59,6 +59,8 @@ const useStyles = makeStyles(theme => ({
       <Chip label="Northwestern" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
       </div>
   <h4 style={{textAlign:'center', fontSize: '1.5rem'}}>ECONOMY AND GLOBALIZATION ENABLERS</h4>
+
+  <h3 style={{textAlign:'center'}}>LIKE</h3>
     <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee5e4e9e02e155e211b800_insti.-name-pg.png" alt="Images of Economy & Globalization Enablers are being tracked by LeaderClasses" className="image"  width="100%" style={{marginTop: '-5rem'}}/>
 
       <h3 style={{textAlign:'center', marginTop: '-3rem', fontSize: '1.5rem' }}> 50+ Renowned High Potential (HI-PO) & Executive Leadership Development programs of Top Tier Organisations</h3>
@@ -69,7 +71,7 @@ const useStyles = makeStyles(theme => ({
          sizes="(max-width: 600px) 480px,800px"
         src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee60b4add0da9fd6fb1f81_Keep-Going.png" style={{width: '100%'}}/>
 
-        
+        <h3 style={{textAlign:'center', fontSize: '2rem'}}>&</h3>
         <h3 style={{textAlign:'center'}}>Thoughts, Actions, Advice, Life  & Inspiration  of</h3>
 
        <img 
@@ -105,7 +107,7 @@ const useStyles = makeStyles(theme => ({
 
 
       <p style={{textAlign:'center', fontSize: '1.5rem'}}>Delivered via an Online Portal, </p>
-      <p style={{textAlign:'center', fontSize: '1.5rem'}}>accessible to our Members through an extremely affordable, Annual Subscription - Our Membership</p>
+      <p style={{textAlign:'center', fontSize: '1.5rem'}}>accessible to our Members through an extremely affordable, Annual Subscription - Our <a href="https://www.leaderclasses.com/membership">Membership</a></p>
 
         <ContentTwo />
       

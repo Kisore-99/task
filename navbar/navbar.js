@@ -14,14 +14,17 @@ const navbar= ()=> {
 </label>
 
 <nav>    
-<h2 style={{color: '#222', textAlign: 'left', textTransform: 'uppercase',  fontFamily: 'Josefin Sans', marginTop: '2rem', fontSize: '20px'}}>Leader Classes</h2>
+<a className= 'title' href="https://react-e5hx4a.stackblitz.io">
+<h2  style={{color: '#222', textAlign: 'left', textTransform: 'uppercase',  fontFamily: 'Josefin Sans', marginTop: '2rem', fontSize: '20px',cursor: 'pointer', }}>
+Leader Classes</h2>
+</a>
   <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">FAQ</a></li>
-    <li><a href="#">Membership</a></li>
-    <li><a href="#">Videos</a></li>
-    <li><a href="#">Campus Partners</a></li>
-    <li><a href="#">Career</a></li>
+    <li><a href="https://www.leaderclasses.com/about-us">About</a></li>
+    <li><a href="https://www.leaderclasses.com/faq">FAQ</a></li>
+    <li><a href="https://www.leaderclasses.com/membership">Membership</a></li>
+    <li><a href="https://www.leaderclasses.com/videos/career-acceleration-insights-video">Videos</a></li>
+    <li><a href="https://www.leaderclasses.com/campus-partners">Campus Partners</a></li>
+    <li><a href="https://www.leaderclasses.com/careers">Career</a></li>
     <li><a href="#">Login</a></li>
   </ul>  
 </nav>

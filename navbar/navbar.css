@@ -7,6 +7,9 @@ body {
 h2, li a{
    font-family: Josefin Sans;
 }
+.title{
+  text-decoration: none;
+}
 
  span {
 	 text-transform: none;

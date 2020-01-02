@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const useStyles = makeStyles(theme => ({
     style: {
@@ -48,7 +48,9 @@ export default function ContentThree(){
   return(
 
     <div>
-
+  <h3 style={{textAlign: 'center', fontSize: '2rem'}}>Not Yet Sure Of  Joining ?</h3>
+  <p style={{textAlign: 'center',fontSize: '1.5rem'}}> Hear what Top Tier CEOs & Emerging CEO are saying about LeaderClasses Via their Video Testimonials below :-</p>
+  <h3 style={{textAlign: 'center',fontSize: '1.2rem'}}>CEO TESTIMONIALS</h3>
     <main class="grid">
 
 
@@ -73,9 +75,9 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <h3>Category - III - Budding Leaders Ms / Phd / me / M.tech Students</h3>
-        <p> Ambitious MS, PhD, ME & M.Tech Students aspiring to progress to Director / GM / VP /  Higher level roles within 10-12 years of completing their education.</p>
+        
        
+       <p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"><img src="https://embedwistia-a.akamaihd.net/deliveries/12437330e78c4ba68f5835d40832f4cb2ccc4b62.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225"style={{width: '400px',height: '225px', marginTop: '5rem'}} /></a></p><p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"></a></p>
       </div>
     </article>
     <article className={classes.style}>
@@ -99,8 +101,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <h3>Category - VI - Future Leaders</h3>
-        <p>Ambitious Director / General Manager / Vice President level Professionals (Annual Gross Compensation exceeding INR 50 Lakhs per annum if  based in India & Over USD 200K p.a if  based outside India.) keen on accelerating their success to transition into a high performing C-Level Leader within the next 6-8 years.</p>
+        <p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"><img src="https://embedwistia-a.akamaihd.net/deliveries/12437330e78c4ba68f5835d40832f4cb2ccc4b62.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225" style={{width: '400px',height: '225px',marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=zy9cntdbjy"></a></p>
       
       </div>
     </article>
@@ -125,8 +126,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <h3>Executive Biography  </h3>
-        <p>  An ISB Alumnus, Achint is an Industry Fast Tracker from the TMT sector, bringing his experience at Microsoft, McKinsey & Viacom across Product Development, Strategy, Corporate Development, Innovation & Market Development to his current role of building Myntra leveraging his Digital Strategy & Execution expertise.</p>
+        <p><a href="https://www.leaderclasses.com?wvideo=2pzbkn5sl6"><img src="https://embedwistia-a.akamaihd.net/deliveries/58f4f7f1aedc70f673d94ce297d954214ed6978b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="225" style={{width: '400px',height: '225px', marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=2pzbkn5sl6"></a></p>
        
       </div>
     </article>
@@ -152,9 +152,7 @@ export default function ContentThree(){
     <article className={classes.style}>
       
       <div class="text">
-        <h3>Executive Biography  </h3>
-        <p>  An ISB Alumnus, Achint is an Industry Fast Tracker from the TMT sector, bringing his experience at Microsoft, McKinsey & Viacom across Product Development, Strategy, Corporate Development, Innovation & Market Development to his current role of building Myntra leveraging his Digital Strategy & Execution expertise.</p>
-       
+       <p><a href="https://www.leaderclasses.com?wvideo=ednmcs3w67"><img src="https://embedwistia-a.akamaihd.net/deliveries/3184f75d1eda688a07c4d6868c22f1aa0329a207.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=0000ffe0" width="400" height="255"style={{width: '400px',height: '225px', marginTop: '5rem'}}/></a></p><p><a href="https://www.leaderclasses.com?wvideo=ednmcs3w67"></a></p>
       </div>
     </article>
     
@@ -186,11 +184,14 @@ export default function ContentThree(){
       <div class="col">
         <h2></h2>
         <ul>
-          <li>CONTACT</li>
-          <li>TERMS</li>
+         <a className="title" href="https://www.leaderclasses.com/contact"> <li>CONTACT</li></a>
+         <a className="title" href="https://www.leaderclasses.com/terms-and-conditions">  <li>TERMS</li></a>
+          <a className="title" href="https://www.leaderclasses.com/privacy"> <li>PRIVACY</li></a>
         
         </ul>
       </div>
+  <FontAwesomeIcon style={{color:'#fff'}}icon={['fab', 'facebook-f']} />
+
 
       <div class="clearfix">  <p style={{color: '#fff',fontSize: '14px',textAlign: 'center', textTransform: 'uppercase'}}>© 2019 LeaderClasses ( Awesome Firms ) & its owners. All rights reserved.</p>
       <p style={{color: '#fff', textAlign: 'center', marginTop: '0.1rem', padding: '0.5rem', textTransform: 'uppercase'}}>All trademarks, logos & intellectual property featured belong to their respective owners. They do not endorse us in any way.</p>
