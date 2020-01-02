@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   style: {
-    
+    fontSize: '20px',
     color:'#fff',
     height:'4rem',
     textTransform: 'uppercase',
@@ -45,18 +45,18 @@ const useStyles = makeStyles(theme => ({
 
 
         <div className={classes.root} >
-      <Chip label="Hardvard" variant="outlined"  className={classes.style}/>
-      <Chip label="MIT" variant="outlined" className={classes.style}/>
-      <Chip label="Yale" variant="outlined" className={classes.style}/>
-      <Chip label="Oxford" variant="outlined" className={classes.style}/>
-      <Chip label="UC Berkeley" variant="outlined" className={classes.style}/>
-      <Chip label="Stanford" variant="outlined" className={classes.style}/>
-      <Chip label="UPENN" variant="outlined" className={classes.style}/>
-      <Chip label="INSEAD" variant="outlined" className={classes.style}/>
-      <Chip label="IMD" variant="outlined" className={classes.style}/>
-      <Chip label="LBS" variant="outlined" className={classes.style}/>
-      <Chip label="CAMBRIDGE" variant="outlined" className={classes.style}/>
-      <Chip label="Northwestern" variant="outlined" className={classes.style}/>
+      <Chip label="Hardvard" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222', }}/>
+      <Chip label="MIT" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="Yale" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="Oxford" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="UC Berkeley" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="Stanford" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="UPENN" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="INSEAD" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="IMD" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="LBS" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="CAMBRIDGE" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
+      <Chip label="Northwestern" variant="outlined"  style={{width:'9rem', height: '4rem', color: '#fff', background: '#222'}}/>
       </div>
   <h4 style={{textAlign:'center', fontSize: '1.5rem'}}>ECONOMY AND GLOBALIZATION ENABLERS</h4>
     <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee5e4e9e02e155e211b800_insti.-name-pg.png" alt="Images of Economy & Globalization Enablers are being tracked by LeaderClasses" className="image"  width="100%" style={{marginTop: '-5rem'}}/>
@@ -80,6 +80,7 @@ const useStyles = makeStyles(theme => ({
 
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>of the foremost world leaders</h3>
         <h3 style={{textAlign: 'center'}}>LIKE</h3>
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
         <h3 style={{textAlign: 'center'}}>&</h3>
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Other Leaders par excellence.</h3>
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Ingesting an extra-ordinary amount of </h3>
