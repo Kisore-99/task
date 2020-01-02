@@ -79,8 +79,20 @@ const useStyles = makeStyles(theme => ({
        src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee61989e02e114db11d186_final-leaders-500.jpg" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
 
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>of the foremost world leaders</h3>
-        <h3 style={{textAlign: 'center'}}>LIKE</h3>
+        
         <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee63e29e02e1117111d5cb_Capture.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
+        
+        <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e1013211d847_Capture1.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
+
+
+    <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b4629fb1aecf1e21fd_Capture2.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
+
+
+    <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cf0ed6d2daaea4a946a5568_Capture3.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
+
+<img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee64b59e02e16c7d11d848_Capture4.JPG" style={{width: '100%', display:'block', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden'}}/>
+
+
         <h3 style={{textAlign: 'center'}}>&</h3>
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Other Leaders par excellence.</h3>
         <h3 style={{textAlign: 'center', fontSize: '1.5rem', textTransform: 'uppercase'}}>Ingesting an extra-ordinary amount of </h3>
@@ -90,6 +102,7 @@ const useStyles = makeStyles(theme => ({
         <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee670d74fc2b3ac772ea55_funnel-final1.png" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
 
         <img src="https://uploads-ssl.webflow.com/5cee4a9d039b6f4c26addf6b/5cee674574fc2b922672ea8c_LSPG3.png" style={{width: '50%', display:'block', marginLeft: 'auto', marginRight: 'auto'}}/>
+
 
       <p style={{textAlign:'center', fontSize: '1.5rem'}}>Delivered via an Online Portal, </p>
       <p style={{textAlign:'center', fontSize: '1.5rem'}}>accessible to our Members through an extremely affordable, Annual Subscription - Our Membership</p>

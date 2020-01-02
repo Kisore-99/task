@@ -73,6 +73,8 @@ h2, li a{
 	 top: 35%;
 	 left: 20%;
 	 right: 20%;
+   margin-top: -50px;
+   
 }
  body input ~ nav > ul > li {
 	 opacity: 0;
@@ -80,6 +82,7 @@ h2, li a{
 	 transition-delay: 0s;
    text-decoration: none;
    list-style-type: none;
+   
 }
  body input ~ nav > ul > li > a {
    
